@@ -41,10 +41,10 @@ Define the function:  <br/>
 Once the list of questions are in place, we want to define a function. In the example below the function is run_quiz and will take the parameters of questions which will run at the end. <br/>
 - We then want to initialize a score variable at zero to keep track of the user score</b> 
 *
-- Create a for loop for these questions. This loops though all of the individual objects (prompt, option, answer, and explanation) where the question variable refers to each object in the array respectively.
-  - Inside the loop, we first need to print the question in the terminal.
-    Here we print out the question by accessing the prompt attribute of the questions object.
-  - We then need to print the choices.
+- Create a for loop for these questions. This loops though all of the individual objects (prompt, option, answer, and explanation) where the question variable refers to each object in the array respectively.<br/>
+  - Inside the loop, we first need to print the question in the terminal.<br/>
+    Here we print out the question by accessing the prompt attribute of the questions object.<br/>
+  - We then need to print the choices.<br/>
     
 <img src="https://i.imgur.com/qNa1AR0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
