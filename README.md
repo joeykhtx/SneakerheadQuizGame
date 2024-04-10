@@ -28,12 +28,14 @@ First we create a list: <br/>
   - Here we have the prompt which is the question.<br/>
   - The option which are the answers to choose from.<br/>
   - The answer which is the correct answer define by the letter.<br/>
-  - The explaination which will explain the correct answer if user made the wrong choice.</b> 
+  - The explaination which will explain the correct answer if user made the wrong choice.<br/>
+<br/>
+  Quick tip : Write out the questions, answers, and explaination on a seperate text document. This allowed us to paste in the information and focus more on the formatting of the objects in the list.<br/>
 <img src="https://i.imgur.com/TuUqRo5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Loop object:  <br/>
-By putting the object with in the curly brackets this will allow us to display each question one by one<br/>
+By putting the object in the curly brackets this will allow us to display each question one by one<br/>
 <img src="https://i.imgur.com/qNa1AR0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -44,8 +46,14 @@ Once the list of questions are in place, we want to define a function. In the ex
 - Create a for loop for these questions. This loops though all of the individual objects (prompt, option, answer, and explanation) where the question variable refers to each object in the array respectively.<br/>
   - Inside the loop, we first need to print the question in the terminal.<br/>
     Here we print out the question by accessing the prompt attribute of the questions object.<br/>
-  - We then need to print the choices.<br/>
+    Coding indentation follows PEP8 style guide for python through out the project.<br/>
+    *
+  - We then need to print out the answer choices line by line. Create another for loop inside our question loop. <br />
+    In the example, the variable is option and we are accessing the options attribure of the questions objects. <br />
+    *
     
+<br />
+<br />
 <img src="https://i.imgur.com/qNa1AR0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
