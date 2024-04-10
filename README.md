@@ -6,7 +6,7 @@ With this lab we gain a better understanding of the Python language through use 
 This program will provide the user with a series of questions and give you some answers for you to answer. The program will give you a feedback whether you provided the correct answer or not then give an explaination of the correct answer. While the program is running it will keep track of your score. when the quiz is finish the program will print your results. <br/>
 <br/>
 In this example we are making a sneakerhead quiz game but feel free to take the information shown and modify it to a topic that quizes you on a subject of your liking.  <br />
-<br />
+<br/>
 Lets walk through it!
 
 
@@ -24,10 +24,10 @@ Lets walk through it!
 
 <p>
 First we create a list: <br/>
-- This list contains objects with different properties.</b> 
-  - Here we have the prompt which is the question.</b> 
-  - The option which are the answers to choose from.</b> 
-  - The answer which is the correct answer define by the letter.</b> 
+- This list contains objects with different properties.<br/>
+  - Here we have the prompt which is the question.<br/>
+  - The option which are the answers to choose from.<br/>
+  - The answer which is the correct answer define by the letter.<br/>
   - The explaination which will explain the correct answer if user made the wrong choice.</b> 
 <img src="https://i.imgur.com/TuUqRo5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
