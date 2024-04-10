@@ -5,7 +5,7 @@
 With this lab we gain a better understanding of the Python language through use of lists, objects, looping, and functions to create a quiz game.
 This program will provide the user with a series of questions and give you some answers for you to answer. The program will give you a feedback whether you provided the correct answer or not then give an explaination of the correct answer. While the program is running it will keep track of your score. when the quiz is finish the program will print your results. <br/>
 <br/>
-In this example we are making a sneakerhead quiz game but feel free to take the information shown and modify it to a topic that quizes you on a subject of your liking.  
+In this example we are making a sneakerhead quiz game but feel free to take the information shown and modify it to a topic that quizes you on a subject of your liking.  <br />
 <br />
 Lets walk through it!
 
