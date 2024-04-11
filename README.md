@@ -7,11 +7,11 @@ This program will provide the user with a series of questions and give you some 
 <br/>
 In this example we are making a sneakerhead quiz game but feel free to take the information shown and modify it to a topic that quizes you on a subject of your liking.  <br />
 <br/>
-Lets walk through it!
+Lets walk through it!<br/>
 
 Heads up:
 - Coding indentation follows PEP8 style guide for python through out the project.<br/>
-\n : tells the program to print an empty line.
+- \n : tells the program to print an empty line.
 
 <h2>Languages and Utilities Used</h2>
 
