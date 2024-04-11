@@ -9,6 +9,9 @@ In this example we are making a sneakerhead quiz game but feel free to take the 
 <br/>
 Lets walk through it!
 
+Heads up:
+- Coding indentation follows PEP8 style guide for python through out the project.<br/>
+\n : tells the program to print an empty line.
 
 <h2>Languages and Utilities Used</h2>
 
@@ -23,7 +26,7 @@ Lets walk through it!
 <h2>Writing the code:</h2>
 
 <p>
-First we create a list: <br/>
+First create a list: <br/>
 - This list contains objects with different properties.<br/>
   - Here we have the prompt which is the question.<br/>
   - The option which are the answers to choose from.<br/>
@@ -40,24 +43,35 @@ By putting the object in the curly brackets this will allow us to display each q
 <br />
 <br />
 Define the function:  <br/>
-Once the list of questions are in place, we want to define a function. In the example below the function is run_quiz and will take the parameters of questions which will run at the end. <br/>
-- We then want to initialize a score variable at zero to keep track of the user score</b> 
+Once the list of questions are in place, define a function. In the example below the function is run_quiz and will take the parameters of questions which will run at the end. <br/>
+- Next, initialize a score variable at zero to keep track of the user score</b> 
 *
+<br />
 - Create a for loop for these questions. This loops though all of the individual objects (prompt, option, answer, and explanation) where the question variable refers to each object in the array respectively.<br/>
-  - Inside the loop, we first need to print the question in the terminal.<br/>
-    Here we print out the question by accessing the prompt attribute of the questions object.<br/>
+  - Inside the loop, print the question in the terminal. Print out the question by accessing the prompt attribute of the questions object.<br/>
     Coding indentation follows PEP8 style guide for python through out the project.<br/>
     *
-  - We then need to print out the answer choices line by line. Create another for loop inside our question loop. <br />
-    In the example, the variable is option and we are accessing the options attribure of the questions objects. <br />
+    <br />
+  - Create another for loop inside our question loop. The variable is option and we are accessing the options attribure of the questions objects.  <br />
+    This will print out the answer choices line by line.  <br />
     *
+    <br />
+  - Lets check on our code to make sure nothing is broken. 
+    Use the run_quiz(questions) command outside and below of defined run_quiz funtion. It shoukd look like this if everything is up and running. <br />
+    *
+    <br />
+  - Now we have to ask the user for the answer. Back in the text editor inside our defined run_quiz(questions) function, define a variable called answer and set it equal to input. Inside the input is the prompt or the question print to the user.<br />
+    This allow for the program to run the inital loop and stop to wait for the users input before moving onto the next question object
+    *
+    <br />
+  - Create an if and else statement comparing to what the user input was. 
+    When setting the if statement variable equal to, as a comparison opreator, the object definition "answer" the program prints out a string notifying that the user is correct.
+    The else statement
     
-<br />
-<br />
-<img src="https://i.imgur.com/qNa1AR0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
 </p>
+
+
+
 
 <h2>Lessons Learned</h2>
 
