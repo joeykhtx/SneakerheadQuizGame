@@ -12,6 +12,7 @@ Lets walk through it!<br/>
 Heads up:
 - Coding indentation follows PEP8 style guide for python through out the project.<br/>
 - \n : tells the program to print an empty line.
+- f : Used infront of a string allowing variable to be used. 
 
 <h2>Languages and Utilities Used</h2>
 
@@ -45,16 +46,16 @@ By putting the object in the curly brackets this will allow us to display each q
 <br />
 <br />
 Define the function:  <br/>
-  <br />
+<br />
 Once the list of questions are in place, define a function. In the example below the function is run_quiz and will take the parameters of questions which will run at the end. <br/>
 - Next, initialize a score variable at zero to keep track of the user score <br />
-  <br />
+<br />
 *
 <br />
 - Create a for loop for these questions. This loops though all of the individual objects (prompt, option, answer, and explanation) where the question variable refers to each object in the array respectively.<br/>
   - Inside the loop, print the question in the terminal. Print out the question by accessing the prompt attribute of the questions object.<br/>
     Coding indentation follows PEP8 style guide for python through out the project.<br/>
-  <br />
+    <br />
     *
     <br />
   - Create another for loop inside our question loop. The variable is option and we are accessing the options attribure of the questions objects.  <br />
@@ -67,16 +68,27 @@ Once the list of questions are in place, define a function. In the example below
     <br />
   - Now we have to ask the user for the answer. Back in the text editor inside our defined run_quiz(questions) function, define a variable called answer and set it equal to input. Inside the input is the prompt or the question print to the user.<br />
     This allow for the program to run the inital loop and stop to wait for the users input before moving onto the next question object. <br />
+    Append this function with .upper to 
     *
     <br />
-  - Create an if and else statement comparing to what the user input was. 
+  - Create an if and else statement comparing to what the user input was. <br />
     When setting the if statement variable equal to, as a comparison opreator, the object definition "answer" the program prints out a string notifying that the user is correct. <br />
     When correct we also want to increment the score variable. The score += 1 takes the value of what the score and increments 1 to it and sets the new variable with that plus one compared to the previous one. <br />
     *
     <br />
-    The else statement is for any other input that does not match the the object definition "answer" inside the questions object.
-    The print function in the example prints out a string that notifies the user that they made the wrong choice and also an explaination of the right answer. 
+  - The else statement is for any other input that does not match the the object definition "answer" inside the questions object.<br />
+    In this example, the print function prints out a string that notifies the user that they made the wrong choice and also an explaination of the right answer in the next line. <br />
+    *
+    <br />
+  - These lines will run for every question inside the loop until there is no more object questions to go through.<br />
+    <br />
+    <br />
+  
+Print the quiz grade:  <br/>
+  - Print the score of the ending results with the variables of score and length (number of questions) inside the curly brackets.
+  - 
     
+
 </p>
 
 
