@@ -71,10 +71,11 @@ Once the list of questions are in place, define a function. In the example below
     <br />
   - Create an if and else statement comparing to what the user input was. 
     When setting the if statement variable equal to, as a comparison opreator, the object definition "answer" the program prints out a string notifying that the user is correct. <br />
-    When correct we also want to increment the score variable. The score += 1 takes the value of what the score and increments 1 to it and sets the new variable with that plus one compared to the previous one. 
+    When correct we also want to increment the score variable. The score += 1 takes the value of what the score and increments 1 to it and sets the new variable with that plus one compared to the previous one. <br />
     *
     <br />
-    The else statement
+    The else statement is for any other input that does not match the the object definition "answer" inside the questions object.
+    The print function in the example prints out a string that notifies the user that they made the wrong choice and also an explaination of the right answer. 
     
 </p>
 
