@@ -106,10 +106,10 @@ Run the quiz:  <br/>
 
 <h2>Lessons Learned</h2>
 
--<b>Create array of objects with definitions.</b><br />
--<b>Use for loops and the print function to show object on the terminal intended.</b><br />
--<b>Input function stoping the program from continuing the for loop waiting for user input.</b><br />
--<b>If and Else Statements to compare user input to right and wrong answers returning feedback to the user after each question.</b><br />
+- <b>Create array of objects with definitions.</b><br />
+- <b>Use for loops and the print function to show object on the terminal intended.</b><br />
+- <b>Input function stoping the program from continuing the for loop waiting for user input.</b><br />
+- <b>If and Else Statements to compare user input to right and wrong answers returning feedback to the user after each question.</b><br />
 
 
 
