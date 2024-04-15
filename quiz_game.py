@@ -60,7 +60,7 @@ questions = [
     },
     {
         "prompt": "\nIf a sneakerhead is someone who's obsessed with sneakers, what is a \"hypebeast\" sneakerhead?",
-        "options": ["A. A sneakerhead who buys only one brand of shoe", "B. A sneakerhead who only talks about the shoes he or she owns","C. A sneakerhead who only buys shoes based on buzz around its release",  "D. A sneakerhead who on>
+        "options": ["A. A sneakerhead who buys only one brand of shoe", "B. A sneakerhead who only talks about the shoes he or she owns","C. A sneakerhead who only buys shoes based on buzz around its release",  "D. A sneakerhead who only buys the newest shoes"],
         "answer": "C",
         "explaination":
             "A \"hypebeast\" is someone that only follows the hype around some sneakers than others. \n"
@@ -77,7 +77,7 @@ questions = [
     },
     { 
         "prompt": "\nAccording to sneakerheads, what is a \"retro\" sneaker?",
-        "options": ["A. A shoe that's re-released for sale due to its popularity", "B. A shoe that was created before 1985", "C. A shoe that looks old and worn out", "D. A shoe release that takes design traits from the past fused with >
+        "options": ["A. A shoe that's re-released for sale due to its popularity", "B. A shoe that was created before 1985", "C. A shoe that looks old and worn out", "D. A shoe release that takes design traits from the past and fused with new design technology"],
         "answer": "A",
         "explaination":
             "Sneakerhead terminology not only tracks how shoes sell, but when they're sold, as well. \n"
