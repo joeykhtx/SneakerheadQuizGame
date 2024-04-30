@@ -22,7 +22,7 @@ Heads up:
 
 <h2>Environments Used </h2>
 
-- <b>Kali Linux</b> (2024.1-amd64)
+- <b>Linux</b>
 
 <h2>Writing the code:</h2>
 
